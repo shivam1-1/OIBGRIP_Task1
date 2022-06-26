@@ -1,0 +1,63 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ccd5ae;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+input{
+    border-radius: 10px;
+}
+.main{
+    border: 1px solid #d4a373;
+    height: 37%;
+    width: 20%;
+    /* box-sizing: border-box; */
+    padding: 20px;
+    margin: 20px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    background-color: #fefae0;
+    border-radius: 10px;
+
+}
+#display{
+     padding: 5px;
+    margin: 10px;
+    /* border: 1px solid black; */
+}
+#answer{
+     padding: 5px;
+    margin: 10px;
+    /* border: 1px solid black; */
+}
+.buttonsMain{
+    margin: 10px;
+    
+    
+}
+button{
+    background-color: #d4a373;
+    border-radius: 5px;
+    /* margin: 5px; */
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 18%;
+    text-align: center;
+    font-size: medium;
+}
+.first{
+    margin-left: 9%;
+}
+.last{
+    margin-right: 8%;
+}
+#enter{
+    width: 81%;
+    /* margin-right: 30%;    */
+}
